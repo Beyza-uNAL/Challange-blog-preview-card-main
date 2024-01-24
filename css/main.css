@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap");
+.container {
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.4rem; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 2rem 0; }
+
+.py-4 {
+  padding: 2rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 2rem 0; }
+
+.my-4 {
+  margin: 2rem 0; }
+
+.text-center {
+  text-align: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #f4d04e;
+  font-family: "Figtree", sans-serif;
+  line-height: 1.5; }
+
+a {
+  text-decoration: none;
+  color: #ffffff; }
+
+.section {
+  width: 635px;
+  height: 700px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+  margin: auto;
+  border-radius: 30px;
+  border: 1.3px solid #121212;
+  box-shadow: 15px 10px 5px black; }
+  .section__top {
+    width: inherit;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .section__top img {
+      width: 571px;
+      height: 300px;
+      object-position: center;
+      object-fit: cover;
+      border-radius: 10px; }
+  .section__bottom {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    justify-content: space-around; }
+    .section__bottom .learning {
+      width: 100px;
+      text-align: center;
+      background-color: #f4d04e;
+      color: #121212;
+      padding: 6px;
+      font-size: 16px;
+      font-weight: 800;
+      margin-bottom: 0.7rem;
+      border-radius: 5px; }
+    .section__bottom h6 {
+      color: #121212;
+      font-size: 16px;
+      font-weight: 400; }
+    .section__bottom h1 {
+      font-size: 40px;
+      font-weight: 800; }
+      .section__bottom h1:hover {
+        color: #f4d04e; }
+    .section__bottom .lead {
+      padding-top: 9px;
+      font-size: 16px;
+      font-weight: 600;
+      color: #808080;
+      text-align: justify; }
+  .section__footer {
+    width: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem; }
+    .section__footer .image-avatar {
+      width: 40px;
+      height: 40px; }
+    .section__footer h3 {
+      color: #121212;
+      font-weight: 800;
+      padding-left: 1rem; }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.6rem; }
+  .section {
+    width: inherit;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 1rem 1rem;
+    margin: auto;
+    border-radius: 15px;
+    border: 1.3px solid #121212;
+    box-shadow: 15px 10px 5px black; }
+    .section__top {
+      width: inherit;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .section__top img {
+        width: inherit;
+        height: 150px;
+        object-position: center;
+        object-fit: cover;
+        border-radius: 10px; }
+    .section__bottom {
+      display: flex;
+      flex-direction: column;
+      height: 200px;
+      justify-content: space-around; }
+      .section__bottom .learning {
+        width: 100px;
+        text-align: center;
+        background-color: #f4d04e;
+        color: #121212;
+        padding: 3px;
+        font-size: 14px;
+        font-weight: 800;
+        margin-bottom: 0.3rem;
+        border-radius: 5px; }
+      .section__bottom h6 {
+        color: #121212;
+        font-size: 14px;
+        font-weight: 400; }
+      .section__bottom h1 {
+        font-size: 20px;
+        font-weight: 800; }
+        .section__bottom h1:hover {
+          color: #f4d04e; }
+      .section__bottom .lead {
+        padding-top: 9px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #808080;
+        text-align: justify; }
+    .section__footer {
+      width: 257px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 1rem;
+      padding: 1rem 0; }
+      .section__footer .image-avatar {
+        width: 40px;
+        height: 40px; }
+      .section__footer h3 {
+        color: #121212;
+        font-weight: 800;
+        padding-left: 1rem; } }
